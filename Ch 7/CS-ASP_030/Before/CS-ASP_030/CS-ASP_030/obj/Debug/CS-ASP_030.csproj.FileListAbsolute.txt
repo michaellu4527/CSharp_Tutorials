@@ -1,0 +1,12 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_030\CS-ASP_030\bin\CS-ASP_030.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_030\CS-ASP_030\bin\CS-ASP_030.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_030\CS-ASP_030\bin\CS-ASP_030.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_030\CS-ASP_030\obj\Debug\CS-ASP_030.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_030\CS-ASP_030\obj\Debug\CS-ASP_030.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_030\CS-ASP_030\obj\Debug\CS-ASP_030.pdb
+C:\Users\Student\Documents\10 C#\Ch 7\CS-ASP_030\Before\CS-ASP_030\CS-ASP_030\bin\CS-ASP_030.dll.config
+C:\Users\Student\Documents\10 C#\Ch 7\CS-ASP_030\Before\CS-ASP_030\CS-ASP_030\bin\CS-ASP_030.dll
+C:\Users\Student\Documents\10 C#\Ch 7\CS-ASP_030\Before\CS-ASP_030\CS-ASP_030\bin\CS-ASP_030.pdb
+C:\Users\Student\Documents\10 C#\Ch 7\CS-ASP_030\Before\CS-ASP_030\CS-ASP_030\obj\Debug\CS-ASP_030.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\Ch 7\CS-ASP_030\Before\CS-ASP_030\CS-ASP_030\obj\Debug\CS-ASP_030.dll
+C:\Users\Student\Documents\10 C#\Ch 7\CS-ASP_030\Before\CS-ASP_030\CS-ASP_030\obj\Debug\CS-ASP_030.pdb

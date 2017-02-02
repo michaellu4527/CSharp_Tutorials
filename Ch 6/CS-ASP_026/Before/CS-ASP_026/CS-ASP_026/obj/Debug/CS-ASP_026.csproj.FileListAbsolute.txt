@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\10 C#\Ch 6\CS-ASP_026\Before\CS-ASP_026\CS-ASP_026\bin\CS-ASP_026.dll.config
+C:\Users\Student\Documents\10 C#\Ch 6\CS-ASP_026\Before\CS-ASP_026\CS-ASP_026\bin\CS-ASP_026.dll
+C:\Users\Student\Documents\10 C#\Ch 6\CS-ASP_026\Before\CS-ASP_026\CS-ASP_026\bin\CS-ASP_026.pdb
+C:\Users\Student\Documents\10 C#\Ch 6\CS-ASP_026\Before\CS-ASP_026\CS-ASP_026\obj\Debug\CS-ASP_026.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\Ch 6\CS-ASP_026\Before\CS-ASP_026\CS-ASP_026\obj\Debug\CS-ASP_026.dll
+C:\Users\Student\Documents\10 C#\Ch 6\CS-ASP_026\Before\CS-ASP_026\CS-ASP_026\obj\Debug\CS-ASP_026.pdb

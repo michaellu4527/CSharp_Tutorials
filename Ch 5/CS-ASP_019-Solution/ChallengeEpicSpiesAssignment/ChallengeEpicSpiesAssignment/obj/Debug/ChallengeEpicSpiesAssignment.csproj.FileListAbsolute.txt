@@ -1,0 +1,12 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\bin\ChallengeEpicSpiesAssignment.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\bin\ChallengeEpicSpiesAssignment.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\bin\ChallengeEpicSpiesAssignment.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\obj\Debug\ChallengeEpicSpiesAssignment.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\obj\Debug\ChallengeEpicSpiesAssignment.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\obj\Debug\ChallengeEpicSpiesAssignment.pdb
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_019-Solution\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\bin\ChallengeEpicSpiesAssignment.dll.config
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_019-Solution\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\bin\ChallengeEpicSpiesAssignment.dll
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_019-Solution\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\bin\ChallengeEpicSpiesAssignment.pdb
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_019-Solution\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\obj\Debug\ChallengeEpicSpiesAssignment.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_019-Solution\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\obj\Debug\ChallengeEpicSpiesAssignment.dll
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_019-Solution\ChallengeEpicSpiesAssignment\ChallengeEpicSpiesAssignment\obj\Debug\ChallengeEpicSpiesAssignment.pdb

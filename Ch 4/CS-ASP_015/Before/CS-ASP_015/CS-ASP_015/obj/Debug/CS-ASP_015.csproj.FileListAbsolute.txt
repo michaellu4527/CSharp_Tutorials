@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\10 C#\Ch 4\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\bin\CS-ASP_015.dll.config
+C:\Users\Student\Documents\10 C#\Ch 4\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\bin\CS-ASP_015.dll
+C:\Users\Student\Documents\10 C#\Ch 4\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\bin\CS-ASP_015.pdb
+C:\Users\Student\Documents\10 C#\Ch 4\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\Ch 4\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.dll
+C:\Users\Student\Documents\10 C#\Ch 4\CS-ASP_015\Before\CS-ASP_015\CS-ASP_015\obj\Debug\CS-ASP_015.pdb

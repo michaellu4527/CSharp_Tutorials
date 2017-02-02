@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\10 C#\Ch 3\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\bin\CS-ASP_011.dll.config
+C:\Users\Student\Documents\10 C#\Ch 3\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\bin\CS-ASP_011.dll
+C:\Users\Student\Documents\10 C#\Ch 3\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\bin\CS-ASP_011.pdb
+C:\Users\Student\Documents\10 C#\Ch 3\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\Ch 3\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.dll
+C:\Users\Student\Documents\10 C#\Ch 3\CS-ASP_011\Before\CS-ASP_011\CS-ASP_011\obj\Debug\CS-ASP_011.pdb

@@ -1,0 +1,12 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_020\CS-ASP_020\bin\CS-ASP_020.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_020\CS-ASP_020\bin\CS-ASP_020.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_020\CS-ASP_020\bin\CS-ASP_020.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_020\CS-ASP_020\obj\Debug\CS-ASP_020.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_020\CS-ASP_020\obj\Debug\CS-ASP_020.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_020\CS-ASP_020\obj\Debug\CS-ASP_020.pdb
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_020_Code\Before\CS-ASP_020\CS-ASP_020\bin\CS-ASP_020.dll.config
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_020_Code\Before\CS-ASP_020\CS-ASP_020\bin\CS-ASP_020.dll
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_020_Code\Before\CS-ASP_020\CS-ASP_020\bin\CS-ASP_020.pdb
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_020_Code\Before\CS-ASP_020\CS-ASP_020\obj\Debug\CS-ASP_020.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_020_Code\Before\CS-ASP_020\CS-ASP_020\obj\Debug\CS-ASP_020.dll
+C:\Users\Student\Documents\10 C#\Ch 5\CS-ASP_020_Code\Before\CS-ASP_020\CS-ASP_020\obj\Debug\CS-ASP_020.pdb
