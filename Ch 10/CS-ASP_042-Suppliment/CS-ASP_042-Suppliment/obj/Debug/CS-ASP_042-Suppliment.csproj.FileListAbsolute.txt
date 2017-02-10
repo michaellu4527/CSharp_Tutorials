@@ -1,0 +1,6 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_042-Suppliment\CS-ASP_042-Suppliment\bin\CS-ASP_042-Suppliment.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_042-Suppliment\CS-ASP_042-Suppliment\bin\CS-ASP_042-Suppliment.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_042-Suppliment\CS-ASP_042-Suppliment\bin\CS-ASP_042-Suppliment.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_042-Suppliment\CS-ASP_042-Suppliment\obj\Debug\CS-ASP_042-Suppliment.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_042-Suppliment\CS-ASP_042-Suppliment\obj\Debug\CS-ASP_042-Suppliment.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_042-Suppliment\CS-ASP_042-Suppliment\obj\Debug\CS-ASP_042-Suppliment.pdb

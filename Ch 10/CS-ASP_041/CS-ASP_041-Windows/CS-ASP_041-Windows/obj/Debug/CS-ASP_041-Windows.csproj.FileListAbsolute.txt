@@ -1,0 +1,14 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\bin\Debug\CS-ASP_041-Windows.exe.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\bin\Debug\CS-ASP_041-Windows.exe
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\bin\Debug\CS-ASP_041-Windows.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\bin\Debug\HeroMonster.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\bin\Debug\HeroMonster.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS-ASP_041-Windows.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS_ASP_041_Windows.Form1.resources
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS_ASP_041_Windows.Properties.Resources.resources
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS-ASP_041-Windows.csproj.GenerateResource.Cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS-ASP_041-Windows.exe
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS-ASP_041-Windows.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_041\CS-ASP_041-Windows\CS-ASP_041-Windows\bin\Debug\CS-ASP_041-Windows.exe.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_041\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS-ASP_041-Windows.exe
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_041\CS-ASP_041-Windows\CS-ASP_041-Windows\obj\Debug\CS-ASP_041-Windows.pdb

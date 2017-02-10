@@ -1,0 +1,6 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeHeroMonsterClassesPart2\ChallengeHeroMonsterClassesPart2\obj\Debug\ChallengeHeroMonsterClassesPart2.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeHeroMonsterClassesPart2\ChallengeHeroMonsterClassesPart2\bin\ChallengeHeroMonsterClassesPart2.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeHeroMonsterClassesPart2\ChallengeHeroMonsterClassesPart2\bin\ChallengeHeroMonsterClassesPart2.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeHeroMonsterClassesPart2\ChallengeHeroMonsterClassesPart2\bin\ChallengeHeroMonsterClassesPart2.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeHeroMonsterClassesPart2\ChallengeHeroMonsterClassesPart2\obj\Debug\ChallengeHeroMonsterClassesPart2.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\ChallengeHeroMonsterClassesPart2\ChallengeHeroMonsterClassesPart2\obj\Debug\ChallengeHeroMonsterClassesPart2.pdb

@@ -13,7 +13,19 @@ namespace MegaChallengeCasino
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                // Initializes set of reels when  you first run the program
+                string[] reels = new string[] { spinReel(), spinReel(), spinReel() };
+                displayImages(reels);
+                ViewState.Add("PlayersMoney", 100);
+                displayPlayerMoney();
+            }
+        }
 
+        private void displayPlayerMoney()
+        {
+            moneyLabel.Text = String.Format("Player's Money: {0:C}", ViewState["PlayersMoney"]);
         }
 
         protected void leverButton_Click(object sender, EventArgs e)
@@ -24,7 +36,29 @@ namespace MegaChallengeCasino
                 return;
             }
             int winnings = pullLever(bet);
-            displayResult(bet, winnings);      
+            displayResult(bet, winnings);
+            adjustPlayerMoney(bet, winnings);
+            displayPlayerMoney();
+        }
+
+        private void adjustPlayerMoney(int bet, int winnings)
+        {
+            int playerMoney = int.Parse(ViewState["PlayersMoney"].ToString());
+            playerMoney -= bet;
+            playerMoney += winnings;
+            ViewState["PlayersMoney"] = playerMoney;
+        }
+
+        private void displayResult(int bet, int winnings)
+        {
+            if (winnings > 0)
+            {
+                resultLabel.Text = String.Format("You bet {0:C} and won {1:C}!", bet, winnings);
+            }
+            else
+            {
+                resultLabel.Text = String.Format("Ouch...you lost {0:C}. Better luck next time!", bet);
+            }
         }
 
         private string spinReel()
@@ -32,7 +66,7 @@ namespace MegaChallengeCasino
             string[] images = new string[] { "bar", "Bell", "Cherry", "Clover", "Diamond", "HorseShoe", "Lemon", "Orange", "Plum", "Seven", "Strawberry", "Watermelon" };
 
             // 12 images so we want to randomize to index 11
-            return images[random.Next(11)];
+            return images[random.Next(12)];
         }
 
         private int pullLever(int bet)
@@ -66,15 +100,15 @@ namespace MegaChallengeCasino
             }
 
             // If there's 1 or more cherries, return 2,3,4
-            if (isCherry(reels) == 1)
+            if (cherryCount(reels) == 1)
             {
                 return 2;
             }
-            else if (isCherry(reels) == 2)
+            else if (cherryCount(reels) == 2)
             {
                 return 3;
             }
-            else if (isCherry(reels) == 3)
+            else if (cherryCount(reels) == 3)
             {
                 return 4;
             }
@@ -108,43 +142,23 @@ namespace MegaChallengeCasino
             }
         }
 
-        private int isCherry(string[] reels)
+        private int cherryCount(string[] reels)
         {
-            // If any of the reels show cherry
-            if (reels[0] == "Cherry" || reels[1] == "Cherry" || reels[2] == "Cherry")
-            {
-                return 1;
-            }
+            int cherryCount = 0;
 
-            // If there are 2 cherries present...
-            else if ((reels[0] == "Cherry" && reels[1] == "Cherry") || (reels[0] == "Cherry" && reels[2] == "Cherry") || (reels[1] == "Cherry" && reels[2] == "Cherry"))
+            if (reels[0] == "Cherry")
             {
-                return 2;
+                cherryCount++;
             }
-
-            // If there are 3 cherries
-            else if (reels[0] == "Cherry" && reels[1] == "Cherry" && reels[2] == "Cherry")
+            if (reels[1] == "Cherry")
             {
-                return 3;
+                cherryCount++;
             }
-
-            // No cherries return loss
-            else
+            if (reels[2] == "Cherry")
             {
-                return 0;
+                cherryCount++;
             }
-        }
-
-        private void displayResult(int bet, int winnings)
-        {
-            if (winnings > 0)
-            {
-                resultLabel.Text = String.Format("You bet {0:C} and won {1:C}", bet, winnings);
-            }
-            else
-            {
-                resultLabel.Text = String.Format("Ouch...you lost {0:C}. Better luck next time!", bet);
-            }
+            return cherryCount;
         }
     }
 }

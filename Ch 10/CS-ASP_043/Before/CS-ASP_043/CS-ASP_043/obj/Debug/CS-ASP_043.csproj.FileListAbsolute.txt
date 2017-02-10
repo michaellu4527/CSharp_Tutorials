@@ -1,0 +1,12 @@
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_043\CS-ASP_043\bin\CS-ASP_043.dll.config
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_043\CS-ASP_043\bin\CS-ASP_043.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_043\CS-ASP_043\bin\CS-ASP_043.pdb
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_043\CS-ASP_043\obj\Debug\CS-ASP_043.csprojResolveAssemblyReference.cache
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_043\CS-ASP_043\obj\Debug\CS-ASP_043.dll
+c:\users\bob tabor\documents\visual studio 2013\Projects\CS-ASP_043\CS-ASP_043\obj\Debug\CS-ASP_043.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_043\Before\CS-ASP_043\CS-ASP_043\bin\CS-ASP_043.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_043\Before\CS-ASP_043\CS-ASP_043\bin\CS-ASP_043.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_043\Before\CS-ASP_043\CS-ASP_043\bin\CS-ASP_043.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_043\Before\CS-ASP_043\CS-ASP_043\obj\Debug\CS-ASP_043.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_043\Before\CS-ASP_043\CS-ASP_043\obj\Debug\CS-ASP_043.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 10\CS-ASP_043\Before\CS-ASP_043\CS-ASP_043\obj\Debug\CS-ASP_043.pdb
