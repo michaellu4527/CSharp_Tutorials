@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_047\Before\CS-ASP_047\CS-ASP_047\bin\CS-ASP_047.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_047\Before\CS-ASP_047\CS-ASP_047\bin\CS-ASP_047.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_047\Before\CS-ASP_047\CS-ASP_047\bin\CS-ASP_047.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_047\Before\CS-ASP_047\CS-ASP_047\obj\Debug\CS-ASP_047.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_047\Before\CS-ASP_047\CS-ASP_047\obj\Debug\CS-ASP_047.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_047\Before\CS-ASP_047\CS-ASP_047\obj\Debug\CS-ASP_047.pdb

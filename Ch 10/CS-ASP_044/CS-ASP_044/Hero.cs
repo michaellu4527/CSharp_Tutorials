@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+// Class names are capitalized
+// Public names are PascalCased
+// Private names, function parameters, or local variables are camelCased
+// If you need to use the same name for a different variable, use an underscore (_)
+
 namespace CS_ASP_044
 {
     public class Hero

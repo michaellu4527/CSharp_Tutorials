@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\bin\ChallengeStudentCourses.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 11\CS-ASP_051-Challenge_Code\ChallengeStudentCourses\ChallengeStudentCourses\obj\Debug\ChallengeStudentCourses.pdb
