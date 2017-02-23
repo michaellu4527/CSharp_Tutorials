@@ -23,8 +23,10 @@ namespace MegaChallengeWar
         public string Play()
         {
             Deck deck = new Deck();
-            string result = deck.Deal(player1, player2, player3, player4);
+            string result = "<h3>Dealing cards...</h3>";
+            result += deck.Deal(player1, player2, player3, player4);
 
+            result += "<h3>Begin battle!</h3>";
             int round = 0;
             while (player1.Cards.Count != 0 && player2.Cards.Count != 0 && player3.Cards.Count != 0 && player4.Cards.Count != 0)
             {
@@ -44,20 +46,26 @@ namespace MegaChallengeWar
 
             if (player1.Cards.Count > player2.Cards.Count && player1.Cards.Count > player3.Cards.Count && player1.Cards.Count > player4.Cards.Count)
             {
-                result += "<br/>Player 1 wins!";
+                result += "<br/><span style='color:red;font-weight:bolder'>Player 1 wins!</span><br/>";
             }
             else if (player2.Cards.Count > player1.Cards.Count && player2.Cards.Count > player3.Cards.Count && player2.Cards.Count > player4.Cards.Count)
             {
-                result += "<br/>Player 2 wins!";
+                result += "<br/><span style='color:blue;font-weight:bolder'>Player 2 wins!</span><br/>";
             }
             else if (player3.Cards.Count > player1.Cards.Count && player3.Cards.Count > player2.Cards.Count && player3.Cards.Count > player4.Cards.Count)
             {
-                result += "<br/>Player 3 wins!";
+                result += "<br/><span style='color:green;font-weight:bolder'>Player 3 wins!</span><br/>";
             }
+            else if (player4.Cards.Count > player1.Cards.Count && player4.Cards.Count > player2.Cards.Count && player4.Cards.Count > player3.Cards.Count)
+            {
+                result += "<br/><span style='color:purple;font-weight:bolder'>Player 4 wins!</span><br/>";
+            }           
             else
-                result += "<br/>Player 4 wins!";
+                result += "<br/><span style='color:red;font-weight:bolder;'>Unfortunately, there is no winner. Please play again!</span><br/>";
 
-            result += "<br/>Player 1: " + player1.Cards.Count + "<br/>Player 2: " + player2.Cards.Count + "<br/>Player 3: " + player3.Cards.Count + "<br/>Player 4: " + player4.Cards.Count;
+
+            result += "<br/><span style='color:red;font-weight:bolder'>Player 1: " + player1.Cards.Count + "</span><br/><span style='color:blue;font-weight:bolder'>Player 2: " + player2.Cards.Count + "</span><br/><span style='color:green;font-weight:bolder'>Player 3: " + player3.Cards.Count + "</span><br/><span style='color:purple;font-weight:bolder'>Player 4: " + player4.Cards.Count + "</span>";
+
             return result;
         }
     }

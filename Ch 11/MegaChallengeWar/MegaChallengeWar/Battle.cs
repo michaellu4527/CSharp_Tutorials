@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 
 namespace MegaChallengeWar
@@ -39,6 +40,7 @@ namespace MegaChallengeWar
         private void determineResult(Player player1, Player player2, Player player3, Player player4,
             Card card1, Card card2, Card card3, Card card4)
         {
+            displayBattleCards(card1, card2, card3, card4);
             // If any of the cards are equal to one another...then WAR
             if (card1.CardValue() == card2.CardValue() || card1.CardValue() == card2.CardValue() || card3.CardValue() == card4.CardValue() || card2.CardValue() == card3.CardValue() || card2.CardValue() == card4.CardValue() ||  card3.CardValue() == card4.CardValue())
             {
@@ -48,33 +50,40 @@ namespace MegaChallengeWar
             // If Player1 has highest card, give him all the cards
             if (card1.CardValue() > card2.CardValue() && card1.CardValue() > card3.CardValue() && card1.CardValue() > card4.CardValue())
             {
-                awardWinner(player1);
+                 awardWinner(player1);           
             }
             // If Player2 has highest card, give him all the cards
             else if (card2.CardValue() > card1.CardValue() && card2.CardValue() > card3.CardValue() && card2.CardValue() > card4.CardValue())
             {
-                awardWinner(player2);
+                 awardWinner(player2);
             }
             else if (card3.CardValue() > card1.CardValue() && card3.CardValue() > card2.CardValue() && card3.CardValue() > card4.CardValue())
             {
-                awardWinner(player3);
+                 awardWinner(player3);
             }
             else
             {
-                awardWinner(player4);
+                 awardWinner(player4);
             }
             _bounty.Clear();
         }
 
         private void awardWinner(Player player)
         {
+            if (_bounty.Count == 0)
+                return;
             displayBountyCards();
             player.Cards.AddRange(_bounty);
             _bounty.Clear();
+
+            _sb.Append("<br/><strong>");
+            _sb.Append(player.Name);
+            _sb.Append(" wins!</strong><br/>");
         }
 
         private void War(Player player1, Player player2, Player player3, Player player4)
         {
+            _sb.Append("<br />**********************WAR***********************<br />");
             GetCard(player1);
             Card warCard1 = GetCard(player1);
             GetCard(player1);

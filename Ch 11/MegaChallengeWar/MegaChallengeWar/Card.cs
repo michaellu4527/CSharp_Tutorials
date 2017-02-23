@@ -26,7 +26,7 @@ namespace MegaChallengeWar
                     value = 13;
                     break;
                 case "Ace":
-                    value = 1;
+                    value = 14;
                     break;
                 default:
                     value = int.Parse(this.Rank);
