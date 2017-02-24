@@ -1,0 +1,8 @@
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\bin\CustomExceptions.Web.dll.config
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\bin\CustomExceptions.Web.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\bin\CustomExceptions.Web.pdb
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\bin\CustomExceptions.Domain.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\bin\CustomExceptions.Domain.pdb
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\obj\Debug\CustomExceptions.Web.csprojResolveAssemblyReference.cache
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\obj\Debug\CustomExceptions.Web.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\CustomExceptions\CustomExceptions.Web\obj\Debug\CustomExceptions.Web.pdb

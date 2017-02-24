@@ -1,0 +1,6 @@
+c:\users\bob_000\documents\visual studio 2013\Projects\GlobalExceptionHandling\GlobalExceptionHandling\bin\GlobalExceptionHandling.dll.config
+c:\users\bob_000\documents\visual studio 2013\Projects\GlobalExceptionHandling\GlobalExceptionHandling\bin\GlobalExceptionHandling.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\GlobalExceptionHandling\GlobalExceptionHandling\bin\GlobalExceptionHandling.pdb
+c:\users\bob_000\documents\visual studio 2013\Projects\GlobalExceptionHandling\GlobalExceptionHandling\obj\Debug\GlobalExceptionHandling.csprojResolveAssemblyReference.cache
+c:\users\bob_000\documents\visual studio 2013\Projects\GlobalExceptionHandling\GlobalExceptionHandling\obj\Debug\GlobalExceptionHandling.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\GlobalExceptionHandling\GlobalExceptionHandling\obj\Debug\GlobalExceptionHandling.pdb

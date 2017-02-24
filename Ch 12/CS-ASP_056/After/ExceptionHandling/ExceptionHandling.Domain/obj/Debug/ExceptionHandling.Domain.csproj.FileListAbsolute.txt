@@ -1,0 +1,5 @@
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\bin\Debug\ExceptionHandling.Domain.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\bin\Debug\ExceptionHandling.Domain.pdb
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.csprojResolveAssemblyReference.cache

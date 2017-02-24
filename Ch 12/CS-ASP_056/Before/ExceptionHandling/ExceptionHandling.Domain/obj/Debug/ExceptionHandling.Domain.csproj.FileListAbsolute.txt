@@ -1,0 +1,10 @@
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\bin\Debug\ExceptionHandling.Domain.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\bin\Debug\ExceptionHandling.Domain.pdb
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_056\Before\ExceptionHandling\ExceptionHandling.Domain\bin\Debug\ExceptionHandling.Domain.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_056\Before\ExceptionHandling\ExceptionHandling.Domain\bin\Debug\ExceptionHandling.Domain.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_056\Before\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_056\Before\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_056\Before\ExceptionHandling\ExceptionHandling.Domain\obj\Debug\ExceptionHandling.Domain.pdb
