@@ -1,0 +1,10 @@
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFrameworkEnums.dll.config
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFrameworkEnums.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFrameworkEnums.pdb
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.SqlServer.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.xml
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.SqlServer.xml
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.csprojResolveAssemblyReference.cache
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.dll
+c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.pdb

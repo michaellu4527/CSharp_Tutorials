@@ -1,0 +1,7 @@
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\bin\NuGetExample.dll.config
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\bin\NuGetExample.dll
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\bin\NuGetExample.pdb
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\bin\Elmah.dll
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\obj\Debug\NuGetExample.csprojResolveAssemblyReference.cache
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\obj\Debug\NuGetExample.dll
+C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\obj\Debug\NuGetExample.pdb

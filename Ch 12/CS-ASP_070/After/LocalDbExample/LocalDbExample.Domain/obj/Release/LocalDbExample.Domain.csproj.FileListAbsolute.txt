@@ -1,0 +1,11 @@
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\LocalDbExample.Domain.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\LocalDbExample.Domain.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\LocalDbExample.DTO.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\LocalDbExample.Persistence.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\EntityFramework.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\LocalDbExample.DTO.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\LocalDbExample.Persistence.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\bin\Release\EntityFramework.xml
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\obj\Release\LocalDbExample.Domain.csprojResolveAssemblyReference.cache
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\obj\Release\LocalDbExample.Domain.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Domain\obj\Release\LocalDbExample.Domain.pdb

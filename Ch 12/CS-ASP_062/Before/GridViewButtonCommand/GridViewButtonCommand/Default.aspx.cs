@@ -17,9 +17,24 @@ namespace GridViewButtonCommand
                 new Car {CarId=Guid.NewGuid(), Make="Hyundai", Model="Elantra", Year=2013}
             };
 
+            GridView1.DataSource = cars;
+            GridView1.DataBind();
         }
 
+        protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            int index = Convert.ToInt32(e.CommandArgument);
+            GridViewRow row = GridView1.Rows[index];
 
+            // This is a bit risky... take great caution.
+            var make = row.Cells[1].Text;
+            var model = row.Cells[2].Text;
+            var value = row.Cells[4].Text;  // Grabs CarID
+
+            // You would probably want to convert it to its original type.
+            var carID = Guid.Parse(value);
+            resultLabel.Text = String.Format("{0} {1} {2}", make, model, carID);
+        }
     }
 
     public class Car 

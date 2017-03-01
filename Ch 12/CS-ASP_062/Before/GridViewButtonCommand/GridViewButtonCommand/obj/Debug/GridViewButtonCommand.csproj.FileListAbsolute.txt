@@ -4,3 +4,9 @@ c:\users\bob_000\documents\visual studio 2013\Projects\GridViewButtonCommand\Gri
 c:\users\bob_000\documents\visual studio 2013\Projects\GridViewButtonCommand\GridViewButtonCommand\obj\Debug\GridViewButtonCommand.csprojResolveAssemblyReference.cache
 c:\users\bob_000\documents\visual studio 2013\Projects\GridViewButtonCommand\GridViewButtonCommand\obj\Debug\GridViewButtonCommand.dll
 c:\users\bob_000\documents\visual studio 2013\Projects\GridViewButtonCommand\GridViewButtonCommand\obj\Debug\GridViewButtonCommand.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_062\Before\GridViewButtonCommand\GridViewButtonCommand\bin\GridViewButtonCommand.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_062\Before\GridViewButtonCommand\GridViewButtonCommand\bin\GridViewButtonCommand.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_062\Before\GridViewButtonCommand\GridViewButtonCommand\bin\GridViewButtonCommand.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_062\Before\GridViewButtonCommand\GridViewButtonCommand\obj\Debug\GridViewButtonCommand.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_062\Before\GridViewButtonCommand\GridViewButtonCommand\obj\Debug\GridViewButtonCommand.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_062\Before\GridViewButtonCommand\GridViewButtonCommand\obj\Debug\GridViewButtonCommand.pdb

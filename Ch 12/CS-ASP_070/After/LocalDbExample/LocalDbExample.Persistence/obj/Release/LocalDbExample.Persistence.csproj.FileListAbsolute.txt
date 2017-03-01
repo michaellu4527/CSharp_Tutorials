@@ -1,0 +1,12 @@
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\LocalDbExample.Persistence.dll.config
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\LocalDbExample.Persistence.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\LocalDbExample.Persistence.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\EntityFramework.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\LocalDbExample.DTO.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\LocalDbExample.DTO.pdb
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\EntityFramework.xml
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\obj\Release\LocalDbExample.Persistence.csprojResolveAssemblyReference.cache
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\obj\Release\LocalDbExample.Persistence.dll
+C:\Users\bob_000\documents\visual studio 2013\Projects\LocalDbExample\LocalDbExample.Persistence\obj\Release\LocalDbExample.Persistence.pdb

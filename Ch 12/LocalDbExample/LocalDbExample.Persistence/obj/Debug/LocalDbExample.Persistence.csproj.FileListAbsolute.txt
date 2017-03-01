@@ -1,0 +1,12 @@
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\LocalDbExample.Persistence.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\LocalDbExample.Persistence.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\obj\Debug\LocalDbExample.Persistence.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\obj\Debug\LocalDbExample.Persistence.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\obj\Debug\LocalDbExample.Persistence.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\LocalDbExample.Persistence.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\LocalDbExample.DTO.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\LocalDbExample\LocalDbExample.Persistence\bin\Debug\LocalDbExample.DTO.pdb

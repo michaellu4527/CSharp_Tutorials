@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="LocalDbExample" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\bob_000\\documents\\visual\ studio\ 2013\\Projects\\LocalDbExample\\LocalDbExample\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\bob_000\\documents\\visual\ studio\ 2013\\Projects\\LocalDbExample\\LocalDbExample\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="LocalDbExample/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\bob_000\\documents\\visual\ studio\ 2013\\Projects\\LocalDbExample\\LocalDbExample\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="ACMEEntities-Web.config Connection String" description="" value="metadata=res://*/ACMEEntities.csdl|res://*/ACMEEntities.ssdl|res://*/ACMEEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tcp:localdbexample.database.windows.net,1433;initial catalog=LocalDbExample_db;user id=taborro@localdbexample;password=MrT!bbl3$;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\bob_000\\documents\\visual\ studio\ 2013\\Projects\\LocalDbExample\\LocalDbExample\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ACMEEntities']/@connectionString" />
+  </parameter>
+</parameters>
