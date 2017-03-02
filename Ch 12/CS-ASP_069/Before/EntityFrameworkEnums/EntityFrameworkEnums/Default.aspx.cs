@@ -11,7 +11,17 @@ namespace EntityFrameworkEnums
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            var db = new FakeDecksEntities();
+            var products = db.Products;
 
+            string result = "";
+
+            foreach (var product in products)
+            {
+                result += String.Format("<p>{0} {1} {2}</p>", product.Name, product.ProductType, product.Color);
+            }
+
+            resultLabel.Text = result;
         }
     }
 

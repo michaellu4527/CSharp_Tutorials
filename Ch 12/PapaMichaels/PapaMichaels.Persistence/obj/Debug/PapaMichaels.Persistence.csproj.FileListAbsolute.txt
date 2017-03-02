@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.Persistence.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.Persistence.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\obj\Debug\PapaMichaels.Persistence.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\obj\Debug\PapaMichaels.Persistence.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\obj\Debug\PapaMichaels.Persistence.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.DTO.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.DTO.pdb

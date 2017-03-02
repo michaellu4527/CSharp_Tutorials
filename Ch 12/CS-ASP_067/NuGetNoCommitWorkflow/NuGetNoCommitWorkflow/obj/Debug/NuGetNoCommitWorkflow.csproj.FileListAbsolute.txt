@@ -7,3 +7,5 @@ C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetNoCommitWorkflow\NuG
 C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetNoCommitWorkflow\NuGetNoCommitWorkflow\obj\Debug\NuGetNoCommitWorkflow.csproj.GenerateResource.Cache
 C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetNoCommitWorkflow\NuGetNoCommitWorkflow\obj\Debug\NuGetNoCommitWorkflow.exe
 C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetNoCommitWorkflow\NuGetNoCommitWorkflow\obj\Debug\NuGetNoCommitWorkflow.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_067\NuGetNoCommitWorkflow\NuGetNoCommitWorkflow\obj\Debug\NuGetNoCommitWorkflow.exe
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_067\NuGetNoCommitWorkflow\NuGetNoCommitWorkflow\obj\Debug\NuGetNoCommitWorkflow.pdb

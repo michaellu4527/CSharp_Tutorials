@@ -8,3 +8,13 @@ c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\Enti
 c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.csprojResolveAssemblyReference.cache
 c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.dll
 c:\users\bob_000\documents\visual studio 2013\Projects\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFrameworkEnums.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFrameworkEnums.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFrameworkEnums.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.xml
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_069\Before\EntityFrameworkEnums\EntityFrameworkEnums\obj\Debug\EntityFrameworkEnums.pdb

@@ -5,3 +5,5 @@ C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample
 C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\obj\Debug\NuGetExample.csprojResolveAssemblyReference.cache
 C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\obj\Debug\NuGetExample.dll
 C:\Users\bob_000\Documents\Visual Studio 2013\Projects\NuGetExample\NuGetExample\obj\Debug\NuGetExample.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_067\NuGetExample\NuGetExample\obj\Debug\NuGetExample.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\CS-ASP_067\NuGetExample\NuGetExample\obj\Debug\NuGetExample.pdb
