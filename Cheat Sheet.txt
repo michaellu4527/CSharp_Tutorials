@@ -767,3 +767,322 @@ Rules:
 1. Must initialize the variable.
 2. Variable is permanently set to the implicit data type.
 3. Can't be use for a PUBLIC property / variable
+
+
+Creating GUIDs (CS-ASP_052)
+===========================
+Globally Unique Identifiers
+
+System.Guid newGuid = System.Guid.NewGuid();
+
+
+Working with Enumberations (CS-ASP_053)
+=======================================
+Data type accepting only enumberated values that you define. Strongly typed, ridding your app of "magic strings". 
+
+public enum Occupation {
+	Doctor,
+	Lawyer, 
+	IndianChief
+}
+
+Occupation occupation; 
+if (Enum.TryParse("Doctor", out occupation)) {
+	...
+}
+
+
+Creating Constants with the const Keyword (CS-ASP_053b)
+=======================================================
+Remove magic values (string, integers, etc.) using permanent, immutable identifiers.
+
+Only use things that NEVER change - not for product prices, etc.
+Define const at local or field.
+
+const double valueOfPi = 3.14;
+
+
+Understanding the switch Statement (CS-ASP_054)
+===============================================
+Think: train switch... logic based on evaluation of a variable or property value.
+
+switch (whatIDo) {
+	case Occupation.Doctor
+		...
+		break;
+	case Occupation.IndianChief
+	case Occupation.Lawyer
+		...
+		goto case Occupation.Doctor;
+	default:
+		...
+		break;
+}
+
+First Pass at the Separation of Concerns Principle (CS-ASP_055)
+===============================================================
+Separate concerns to mitigate impact of change on a software system.
+
+Common "concerns":
+- Presentation Logical
+- Business/Domain logic
+- Persistence logic
+
+Recommendation: Separate concerns into projects within a given solution.
+
+Naming Convention:
+MyApplicatioin (Solution name)
+-- MyApplication.Presentation (.Web, etc. presentation project)
+-- MyApplication.Domain (domain / business rules project)
+-- MyApplication.Persistence (.Data, .DB persistence project)
+
+Understanding Exception Handling (CS-ASP_056)
+=============================================
+Wrap try...catch around code:
+- That you are calling into, that you didn't write
+- Code that accesses external resources 
+- Code that accepts input from other sources
+
+try {
+
+}
+catch (SpecificException ex) {
+	// Catch more specific exceptions first
+	// More general last
+}
+catch (Exception ex) {
+	// log it
+	// Swallow it? Do nothing to it
+	// Rethrow it
+}
+finally {
+	// optional... clean up
+}
+
+
+Understanding Global Exception Handling (CS-ASP_057)
+====================================================
+Unhandled exception bubbles up until they are exposed to the end user (aka "yellow screen of death")
+
+Best place to handle exceptions is the nearest locale to the exception itself.
+However, you CAN handle it globally.
+
+In global.asax
+
+Add:
+
+	void Application_Error(object sender, EventArgs e)
+	{
+		// Ask what just happened?
+		Exception ex = Server.GetLastError();
+
+		// ex will ALWAYS be of type HttpUnhandledException. To get to the exception that CAUSED
+		// that to happen, you'll need to look at the ex.InnerException
+		var innerException = ex.InnerException;
+
+		// Handle a specific type of error differently.
+		if (innerException.GetType() == typeof(ArgumentOutOfRangeException))
+		{
+			Server.Transfer("Error.aspx");
+		}
+
+		// YOU MUST DO THIS if you want to hide the yellow page of death, any existing exceptions after this point
+		// will send the end user the exception page
+		Server.ClearError();
+	}
+
+Understanding Custom Exceptions (CS-ASP_058)
+============================================
+Inherit from Exception like so:
+
+public class MyCustomException : Exception // Inheritance
+{ ... }
+
+
+Creating a Database in Visual Studio 2013 (CS-ASP_059)
+======================================================
+LocalDb - Local dev-only version of SQL Server
+
+Project > Add New Item.. > Installed > Data > SQL Server Database
+
+Creates a .mdf file
+
+SQL Server Data Tools (SSDT) - Tools to create and manage SQL Server databases from Visual Studio.
+
+
+Creating an Entity Model in Visual Studio 2015 (CS-ASP_060)
+===========================================================
+Entity Data Model - Object-Relational Mapper to treat database tables w/ columns as classes w/ properties
+
+Project > Add New Item.. > Installed > Data > ADO.NET Entity Data Model > Entity Data Model Wizard > EF Designer from Database > Connection > Database Objects
+
+
+DbContext == Handle to the entity model > database
+DbSet == Collection of all entities in the DbContext
+
+	ACMEEntities db = new ACMEEntities();
+	var dbCustomers = db.Customers;
+	
+
+Displaying the DbSet Result in an ASP.NET GridView (CS-ASP_061)
+===============================================================
+GridView Server Control - Databinds to enumberable collections of objects and renders in a tabular formattingcurrency
+
+MUST CALL ToList() on a DbSet to bind to a databound control.
+
+gridControl.DataSource = dbCustomers.ToList();
+gridControl.DataBind();		// DataBind gives it presentation format
+
+
+Implementing a Button Command in a Gridview (CS-ASP_062)
+========================================================
+Click Chevron => GridView Tasks -> Edit Columns...
+
+BoundField - Databind to an object property
+ButtonField - Hyperlink button
+
+Handle button click in the GridView_RowCommand event handler.
+
+protected void GridView1_RowCommand(object sender, GridViewCommanEventArgs e){
+	
+	// Retrieve the ROW THAT IS CLICKED ON in the grid
+	
+	int index = Convert.ToInt32(e.CommandArgument);
+	GridViewRow row = GridView1.Rows[index];	// Each index is one row
+	
+	// Accessing cells is risky because the order of the columns may change over time!
+	// (and you might forget that this code depends on it!)
+	// Also... 0 based!
+	
+	var someValue = row.Cells[1].Text;	// Convert to anything you want
+}
+
+
+Using a Tools-Centric Approach to Building a Database Application (CS-ASP_063)
+==============================================================================
+Tools-centric: Use VS's designers, tools, etc. to build applications w/ minimal code.
+
+Great for small, departmental apps w/ very little business logic, change is not anticipated and there's a tight timeframe
+
+
+Using a Maintenance-Centric Approach to Building a Database Application (CS-ASP_064)
+====================================================================================
+Maintenance-Centric: Anticipate change, mitigate its negative effects on software by separating concerns, applying unit testing, etc.
+
+Great for larger, enterprise scale apps with many business rules, where change is anticipated because it is crucial to the operation of the business and there's a longer development timeframe.
+
+DTO - Data Transfer Object -- Model used for transferring from one layer to another to avoid a leaky abstraction.
+Ex: I don't want Entity Framework leaking out of the persistence because
+other layers would be dependent on it! BAD!
+
+
+Creating a New Instance of an Entity and Persisting to the Database (CS-ASP_065)
+================================================================================
+
+var customer = new Customer();
+// Populate properties of customer
+dbCustomers.Add(customer);
+db.SaveChanges();		// Will commit changes
+
+Filtering DbSets using LINQ method syntax:
+
+ACMEEntities db = new ACMEEntities();
+var dbCustomers = db.Customers.OrderBy(p => p.Name).ToList();
+
+.Where(p => p.Name == "Bob").ToList();	// Will filter out everyone else besides people named "Bob"
+
+Lambda Expression - "mini methods"
+
+
+Package Management with NuGet (CS-ASP_066)
+===========================================
+Package Manager - installs files, folders, adds references to third party
+packages supplying common functionality.
+
+Adds dependencies.
+Updates packages and dependencies.
+
+// Manage NuGet Packages Dialog
+Tools > NuGet Package Manager > Manage NuGet Packages for Solution ... >
+
+// Package Manager Console
+Tools > NuGet Package Manager > Package Manager Console
+
+Install-Package elmah
+Update-Package elmah
+
+packages.config file keeps track of packages, dependencies and versions.
+
+
+NuGet No-Commit Workflow (CS-ASP_067)
+======================================
+To restore deleted packages at comppile:
+
+Solution Explorer > Right-click Solution > Enable NuGet Package Restore
+
+Adds a .nuget folder in the project.
+
+Or, go to the Manage NuGet Packages dialog and click the Restore button at
+
+the top (yellow area).
+
+
+Introduction to the Twitter Bootstrap CSS Framework (CS-ASP_068)
+==================================================================
+
+Add:
+<link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+<script src="Scripts/jquery-2.1.3.min.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+
+Complete Reference:
+http://getbootstrap.com/css/
+
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-sm-6 col-xs-8">
+
+<div class="form-group">
+<label>TextBox: </label>
+<asp:TextBox ID="testTextBox" runat="server" CssClass="form-control">
+
+<asp:Button ID="testButton" runat="server" Text="Test" CssClass="btn btn-lg
+
+btn-primary" />
+
+
+Mapping Enum Types to Entity Properties in the Entity Framework Designer (CS-ASP_069)
+=====================================================================================
+Enums have implicit numeric indices
+
+public enum BallType {
+Baseball = 0,
+Basketball = 1,
+Football = 2
+}
+
+You can change the "seed":
+
+// Implies 1, 2, 3 when you do this
+public enum BallType {
+Baseball = 1,
+Basketball,
+Football
+}
+
+The Entity Framework Designer maps enums to int data types.
+
+In Entity Data Model diagram (edmx)
+- Right-click Column
+- Select Convert to Enum
+- In the Add Enum Type dialog, either:
+-- Select Reference external type, enter namespace + type, or...
+-- Enter Enum Type Name, enter Members and optional Values
+
+
+Deploying the App to Microsoft Azure App Services Web Apps (CS-ASP_070)
+=======================================================================
+Solution Explorer > Right-click Project Name > Publish ...
+
+MAKE SURE TO DELETE THE PUBLISHSETTINGS FOLDER BEFORE DISTRIBUTING YOUR SOURCE CODE TO OTHERS!!!
