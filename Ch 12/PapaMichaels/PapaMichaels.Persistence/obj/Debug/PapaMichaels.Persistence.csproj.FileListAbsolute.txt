@@ -5,3 +5,8 @@ C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichael
 C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\obj\Debug\PapaMichaels.Persistence.pdb
 C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.DTO.dll
 C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.DTO.pdb
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\PapaMichaels.Persistence.dll.config
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\EntityFramework.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\EntityFramework.xml
+C:\Users\Student\Documents\10 C#\CSharp_Tutorials\Ch 12\PapaMichaels\PapaMichaels.Persistence\bin\Debug\EntityFramework.SqlServer.xml
