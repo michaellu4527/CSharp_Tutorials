@@ -31,5 +31,17 @@ namespace PapaMichaels.Web
 
             Domain.OrderManager.CreateOrder(order);
         }
+
+        protected void orderButton_Click(object sender, EventArgs e)
+        {
+            var order = new DTO.OrderDTO();
+
+            DTO.Enums.SizeType size;
+            //Enum.TryParse(sizeDropDownList.SelectedValue, out size){
+            //    order.Size = size;
+            //}
+
+            Domain.OrderManager.CreateOrder(order);
+        }
     }
 }
