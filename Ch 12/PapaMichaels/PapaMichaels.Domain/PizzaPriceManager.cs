@@ -81,8 +81,10 @@ namespace PapaMichaels.Domain
                     cost = prices.SmallSizeCost;
                     break;
                 case PapaMichaels.DTO.Enums.SizeType.Medium:
+                    cost = prices.MediumSizeCost;
                     break;
                 case PapaMichaels.DTO.Enums.SizeType.Large:
+                    cost = prices.LargeSizeCost;
                     break;
                 default:
                     break;

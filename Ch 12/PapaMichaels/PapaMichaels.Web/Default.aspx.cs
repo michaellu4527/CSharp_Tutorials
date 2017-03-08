@@ -17,8 +17,47 @@ namespace PapaMichaels.Web
 
         protected void orderButton_Click(object sender, EventArgs e)
         {
-            var order = buildOrder();
-            Domain.OrderManager.CreateOrder(order);
+            if (nameTextBox.Text.Trim().Length == 0)
+            {
+                validationLabel.Text = "Please enter a name.";
+                validationLabel.Visible = true;
+                return;
+            }
+
+            if (addressTextBox.Text.Trim().Length == 0)
+            {
+                validationLabel.Text = "Please enter an address.";
+                validationLabel.Visible = true;
+                return;
+            }
+
+            if (phoneNumberTextBox.Text.Trim().Length == 0)
+            {
+                validationLabel.Text = "Please enter a phone number.";
+                validationLabel.Visible = true;
+                return;
+            }
+
+            if (zipCodeTextBox.Text.Trim().Length == 0)
+            {
+                validationLabel.Text = "Please enter a zip code.";
+                validationLabel.Visible = true;
+                return;
+            }
+
+            try
+            {
+                var order = buildOrder();
+                Domain.OrderManager.CreateOrder(order);
+                Response.Redirect("success.aspx");  // Redirect to new web page
+            }
+            catch (Exception ex)
+            {
+                validationLabel.Text = ex.Message;
+                validationLabel.Visible = true;
+                return;
+            }
+
         }
 
         private DTO.Enums.PaymentType determinePaymentType()
@@ -62,12 +101,16 @@ namespace PapaMichaels.Web
                 return;
             if (crustDropDownList.SelectedValue == String.Empty)
                 return;
-
             var order = buildOrder();
-            resultLabel.Text = Domain.PizzaPriceManager.calculateCost(order).ToString("C");
-            
 
-
+            try
+            {
+                resultLabel.Text = Domain.PizzaPriceManager.calculateCost(order).ToString("C");
+            }
+            catch (Exception)
+            {
+                // Swallow the error
+            }
         }
 
         private DTO.OrderDTO buildOrder()

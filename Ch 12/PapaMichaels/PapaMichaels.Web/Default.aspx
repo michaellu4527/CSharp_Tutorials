@@ -81,16 +81,16 @@
 
         <!-- Order button, info Bootstrap styled-->
         <asp:Button ID="orderButton" runat="server" Text="Order" CssClass="btn btn-lg btn-info" OnClick="orderButton_Click" />
-
         <br />
+        <br />
+        <p><asp:Label ID="validationLabel" runat="server" Text="" CssClass="bg-danger" Visible="false"></asp:Label></p>
+
         <br />
         <br />
 
         <h2>Total Cost:
             <asp:Label ID="resultLabel" runat="server"></asp:Label>
         </h2>
-
-
 
     </div>
     </form>
