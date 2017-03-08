@@ -16,7 +16,8 @@
         <hr />
         <div class="form-group">
             <h5><strong>Size:</strong></h5>
-            <asp:DropDownList ID="sizeDropDownList" runat="server" CssClass="form-control" AutoPostBack="true">
+            <asp:DropDownList ID="sizeDropDownList" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="recalculateTotalCost">
+                <asp:ListItem Text="Choose One..." Value="" Selected="True"/>
                 <asp:ListItem Text="Small (12 inch - $12)" Value="Small" />
                 <asp:ListItem Text="Medium (14 inch - $14)" Value="Medium" />
                 <asp:ListItem Text="Large (16 inch - $16)" Value="Large" />
@@ -27,15 +28,20 @@
 
         <div class="form-group">
             <h5><strong>Crust: </strong></h5>
-                <asp:DropDownList ID="crustDropDownList" runat="server" CssClass="form-control" AutoPostBack="true"></asp:DropDownList>
+            <asp:DropDownList ID="crustDropDownList" runat="server" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="recalculateTotalCost">
+                <asp:ListItem Text="Choose One..." Value="" Selected="True"/>
+                <asp:ListItem Text="Regular" Value="Regular" />
+                <asp:ListItem Text="Thin" Value="Thin" />
+                <asp:ListItem Text="Thick (+ $2)" Value="Thick" />
+            </asp:DropDownList>
         </div>
         
         <br />
 
-        <div class="checkbox"><label><asp:CheckBox ID="sausageCheckBox" runat="server" AutoPostBack="true" /> Sausage</label></div>
-        <div class="checkbox"><label><asp:CheckBox ID="pepperoniCheckBox" runat="server" AutoPostBack="true" /> Pepperoni</label></div>
-        <div class="checkbox"><label><asp:CheckBox ID="onionsCheckBox" runat="server" AutoPostBack="true" /> Onions</label></div>
-        <div class="checkbox"><label><asp:CheckBox ID="greenPeppersCheckBox" runat="server" AutoPostBack="true" /> Green Peppers</label></div>
+        <div class="checkbox"><label><asp:CheckBox ID="sausageCheckBox" runat="server" AutoPostBack="true" OnCheckedChanged="recalculateTotalCost"/> Sausage (+ $2)</label></div>
+        <div class="checkbox"><label><asp:CheckBox ID="pepperoniCheckBox" runat="server" AutoPostBack="true" OnCheckedChanged="recalculateTotalCost"/> Pepperoni (+ $1.50)</label></div>
+        <div class="checkbox"><label><asp:CheckBox ID="onionsCheckBox" runat="server" AutoPostBack="true" OnCheckedChanged="recalculateTotalCost"/> Onions (+ $1)</label></div>
+        <div class="checkbox"><label><asp:CheckBox ID="greenPeppersCheckBox" runat="server" AutoPostBack="true" OnCheckedChanged="recalculateTotalCost"/> Green Peppers (+ $1)</label></div>
 
         <br />
 

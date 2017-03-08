@@ -23,6 +23,9 @@ namespace PapaMichaels.Domain
             //order.PaymentType = DTO.Enums.PaymentType.Credit;
             //order.TotalCost = 16.50M;   // Want a "decimal" data type so we need the M
 
+            orderDTO.OrderId = Guid.NewGuid();
+            orderDTO.TotalCost = PizzaPriceManager.calculateCost(orderDTO);
+
             Persistence.OrderRepository.CreateOrder(orderDTO);
         }
     }
