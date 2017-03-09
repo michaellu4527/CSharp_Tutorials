@@ -73,8 +73,8 @@
         <!-- Text field -->
 
         <!-- Radio buttons -->
-        <div class="radio"><label><asp:RadioButton ID="cashRadioButton" runat="server" /> Cash</label></div>
-        <div class="radio"><label><asp:RadioButton ID="creditRadioButton" runat="server" /> Credit</label></div>
+        <div class="radio"><label><asp:RadioButton ID="cashRadioButton" runat="server" GroupName="Payment" /> Cash</label></div>
+        <div class="radio"><label><asp:RadioButton ID="creditRadioButton" runat="server" GroupName="Payment" /> Credit</label></div>
 
         <br />
         <br />

@@ -10,18 +10,9 @@ namespace PapaMichaels.Domain
     {
         public static void CreateOrder(DTO.OrderDTO orderDTO)
         {
-            //var order = new DTO.OrderDTO();
-
-            //order.OrderId = Guid.NewGuid();
-            //order.Size = DTO.Enums.SizeType.Large;
-            //order.Crust = DTO.Enums.CrustType.Thick;
-            //order.Pepperoni = true;
-            //order.Name = "Test";
-            //order.Address = "123 Elm";
-            //order.Zip = "039384";
-            //order.Phone = "938-293-2999";
-            //order.PaymentType = DTO.Enums.PaymentType.Credit;
-            //order.TotalCost = 16.50M;   // Want a "decimal" data type so we need the M
+            // Validation
+            if (orderDTO.Name.Trim().Length == 0)
+                throw new Exception("Name is required.");
 
             orderDTO.OrderId = Guid.NewGuid();
             orderDTO.TotalCost = PizzaPriceManager.calculateCost(orderDTO);
